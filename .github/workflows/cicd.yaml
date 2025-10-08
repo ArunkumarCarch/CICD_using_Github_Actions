@@ -21,6 +21,7 @@ jobs:
         run: |
           pip install pytest
           pip install -r ./api/requirements.txt
+          pip install httpx
       - name: Running  pytest
         run: pytest -v ./api/tests
         continue-on-error: false
