@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install pytest
-          pip install -r requirements.txt
+          pip install -r ./api/requirements.txt
           pip install httpx
       - name: Running  pytest
         run: pytest -v
