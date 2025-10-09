@@ -88,4 +88,5 @@ jobs:
           git config user.email "actions@github.com"
           git add k8s/api.yaml k8s/web.yaml
           git commit -m "Update api,web image tags to ${{ github.sha }}"
-          git push
+          git pull origin main --rebase
+          git push origin main
