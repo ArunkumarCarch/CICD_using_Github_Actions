@@ -7,5 +7,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY main.py .
 # copying main file
-
+#hello world
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
