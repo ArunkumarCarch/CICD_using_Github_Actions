@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: arunkumarcarch/todo-api:d3de062105e3a85637996e202462c7a18a5d5cc5
+          image: arunkumarcarch/todo-api:f69510257c4e96ed5b0859aacaf3395e844f50d0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
